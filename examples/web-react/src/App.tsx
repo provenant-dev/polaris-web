@@ -62,8 +62,8 @@ export function App() {
     try {
       //// example of  data attestation schema: 
       ////  https://github.com/provenant-dev/public-schema/blob/main/attestation/attestation.schema.json
-      let schemaSaid = 'ENDcMNUZjag27T_GTxiCmB2kYstg_kqipqz39906E_FD'
-      let credData = { digest: dataDigest, digestAlgo: 'SHA-256' }
+      let schemaSaid = 'EB4AsU1rKGOAf7m4MS324XhanXq8G01sR_bUdUV2TULm'
+      let credData = { digest: dataDigest }
       const result = await extensionClient.createDataAttestationCredential({
         credData: credData,
         schemaSaid: schemaSaid
