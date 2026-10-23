@@ -34,9 +34,12 @@
     "typedoc": "^0.25.13",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.11.0",
-    "vitest": "^1.6.0"
+    "vitest": "^3.2.6"
   },
   "workspaces": [
     "examples/*"
-  ]
+  ],
+  "overrides": {
+    "tinypool": "^2.1.2"
+  }
 }
